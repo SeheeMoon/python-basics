@@ -1,0 +1,25 @@
+#! /bin/sh
+#
+# Created by configure
+
+CC="gcc"; export CC
+CFLAGS="-I/Applications/mampstack-8.1.9-0/common/include -I/Applications/mampstack-8.1.9-0/common/include/ncurses -I/Applications/mampstack-8.1.9-0/common/include -arch x86_64"; export CFLAGS
+CPPFLAGS="-I/Applications/mampstack-8.1.9-0/common/include"; export CPPFLAGS
+LDFLAGS="-L/Applications/mampstack-8.1.9-0/common/lib -liconv"; export LDFLAGS
+"./configure" \
+"--prefix=/Applications/mampstack-8.1.9-0/apache2" \
+"--enable-so" \
+"--enable-mods-shared=most" \
+"--disable-auth_dbm" \
+"--without-berkeley-db" \
+"--with-apr=/Applications/mampstack-8.1.9-0/common/bin/apr-1-config" \
+"--with-apu=/Applications/mampstack-8.1.9-0/common/bin/apr-1-config" \
+"--with-pcre=/Applications/mampstack-8.1.9-0/common/bin/pcre-config" \
+"--enable-mpms-shared=all" \
+"--with-nghttp2=/Applications/mampstack-8.1.9-0/common/lib" \
+"--with-mpm=prefork" \
+"CC=gcc" \
+"CFLAGS=-I/Applications/mampstack-8.1.9-0/common/include -I/Applications/mampstack-8.1.9-0/common/include/ncurses -I/Applications/mampstack-8.1.9-0/common/include -arch x86_64" \
+"LDFLAGS=-L/Applications/mampstack-8.1.9-0/common/lib -liconv" \
+"CPPFLAGS=-I/Applications/mampstack-8.1.9-0/common/include" \
+"$@"

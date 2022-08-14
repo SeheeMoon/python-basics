@@ -1,0 +1,13 @@
+prefix=/Applications/mampstack-8.1.9-0/common
+exec_prefix=/Applications/mampstack-8.1.9-0/common
+libdir=/Applications/mampstack-8.1.9-0/common/lib
+includedir=/Applications/mampstack-8.1.9-0/common/include
+datarootdir=/Applications/mampstack-8.1.9-0/common/share
+datadir=/Applications/mampstack-8.1.9-0/common/share
+
+Name: oniguruma
+Description: Regular expression library
+Version: 6.9.4
+Requires:
+Libs: -L${libdir} -lonig
+Cflags: -I${includedir}

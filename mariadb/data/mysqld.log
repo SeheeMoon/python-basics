@@ -1,0 +1,96 @@
+220812 17:32:33 mysqld_safe Starting mysqld daemon with databases from /Applications/mampstack-8.1.9-0/mariadb/data
+2022-08-12 17:32:34 0 [Note] /Applications/mampstack-8.1.9-0/mariadb/bin/mysqld.bin (mysqld 10.4.25-MariaDB) starting as process 2327 ...
+2022-08-12 17:32:34 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2022-08-12 17:32:34 0 [Note] InnoDB: Uses event mutexes
+2022-08-12 17:32:34 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-08-12 17:32:34 0 [Note] InnoDB: Number of pools: 1
+2022-08-12 17:32:34 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-08-12 17:32:34 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-08-12 17:32:34 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-08-12 17:32:34 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-08-12 17:32:34 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-08-12 17:32:34 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-08-12 17:32:34 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-08-12 17:32:34 0 [Note] InnoDB: Waiting for purge to start
+2022-08-12 17:32:34 0 [Note] InnoDB: 10.4.25 started; log sequence number 60967; transaction id 20
+2022-08-12 17:32:34 0 [Note] InnoDB: Loading buffer pool(s) from /Applications/mampstack-8.1.9-0/mariadb/data/ib_buffer_pool
+2022-08-12 17:32:34 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-08-12 17:32:34 0 [Note] InnoDB: Buffer pool(s) load completed at 220812 17:32:34
+2022-08-12 17:32:34 0 [Note] Server socket created on IP: '127.0.0.1'.
+2022-08-12 17:32:34 0 [Warning] 'user' entry 'root@munsehuis-macbook-air.local' ignored in --skip-name-resolve mode.
+2022-08-12 17:32:34 0 [Warning] 'user' entry '@munsehuis-macbook-air.local' ignored in --skip-name-resolve mode.
+2022-08-12 17:32:34 0 [Warning] 'proxies_priv' entry '@% root@munsehuis-macbook-air.local' ignored in --skip-name-resolve mode.
+2022-08-12 17:32:34 0 [Note] Reading of all Master_info entries succeeded
+2022-08-12 17:32:34 0 [Note] Added new Master_info '' to hash table
+2022-08-12 17:32:34 0 [Note] /Applications/mampstack-8.1.9-0/mariadb/bin/mysqld.bin: ready for connections.
+Version: '10.4.25-MariaDB'  socket: '/Applications/mampstack-8.1.9-0/mariadb/tmp/mysql.sock'  port: 3306  Source distribution
+2022-08-12 18:45:47 0 [Note] /Applications/mampstack-8.1.9-0/mariadb/bin/mysqld.bin (initiated by: unknown): Normal shutdown
+2022-08-12 18:45:47 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-08-12 18:45:47 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-08-12 18:45:47 0 [Note] InnoDB: Starting shutdown...
+2022-08-12 18:45:47 0 [Note] InnoDB: Dumping buffer pool(s) to /Applications/mampstack-8.1.9-0/mariadb/data/ib_buffer_pool
+2022-08-12 18:45:47 0 [Note] InnoDB: Buffer pool(s) dump completed at 220812 18:45:47
+2022-08-12 18:45:48 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-08-12 18:45:48 0 [Note] InnoDB: Shutdown completed; log sequence number 60976; transaction id 21
+2022-08-12 18:45:48 0 [Note] /Applications/mampstack-8.1.9-0/mariadb/bin/mysqld.bin: Shutdown complete
+
+220814 16:50:56 mysqld_safe Starting mysqld daemon with databases from /Applications/mampstack-8.1.9-0/mariadb/data
+2022-08-14 16:50:56 0 [Note] /Applications/mampstack-8.1.9-0/mariadb/bin/mysqld.bin (mysqld 10.4.25-MariaDB) starting as process 1350 ...
+2022-08-14 16:50:56 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2022-08-14 16:50:56 0 [Note] InnoDB: Uses event mutexes
+2022-08-14 16:50:56 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-08-14 16:50:56 0 [Note] InnoDB: Number of pools: 1
+2022-08-14 16:50:56 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-08-14 16:50:56 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-08-14 16:50:56 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-08-14 16:50:56 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-08-14 16:50:56 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-08-14 16:50:56 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-08-14 16:50:56 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-08-14 16:50:56 0 [Note] InnoDB: Waiting for purge to start
+2022-08-14 16:50:56 0 [Note] InnoDB: 10.4.25 started; log sequence number 60976; transaction id 20
+2022-08-14 16:50:56 0 [Note] InnoDB: Loading buffer pool(s) from /Applications/mampstack-8.1.9-0/mariadb/data/ib_buffer_pool
+2022-08-14 16:50:56 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-08-14 16:50:56 0 [Note] InnoDB: Buffer pool(s) load completed at 220814 16:50:56
+2022-08-14 16:50:56 0 [Note] Server socket created on IP: '127.0.0.1'.
+2022-08-14 16:50:56 0 [Warning] 'user' entry 'root@munsehuis-macbook-air.local' ignored in --skip-name-resolve mode.
+2022-08-14 16:50:56 0 [Warning] 'proxies_priv' entry '@% root@munsehuis-macbook-air.local' ignored in --skip-name-resolve mode.
+2022-08-14 16:50:56 0 [Note] Reading of all Master_info entries succeeded
+2022-08-14 16:50:56 0 [Note] Added new Master_info '' to hash table
+2022-08-14 16:50:56 0 [Note] /Applications/mampstack-8.1.9-0/mariadb/bin/mysqld.bin: ready for connections.
+Version: '10.4.25-MariaDB'  socket: '/Applications/mampstack-8.1.9-0/mariadb/tmp/mysql.sock'  port: 3306  Source distribution
+2022-08-14 18:04:33 0 [Note] /Applications/mampstack-8.1.9-0/mariadb/bin/mysqld.bin (initiated by: unknown): Normal shutdown
+2022-08-14 18:04:33 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-08-14 18:04:33 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-08-14 18:04:33 0 [Note] InnoDB: Starting shutdown...
+2022-08-14 18:04:33 0 [Note] InnoDB: Dumping buffer pool(s) to /Applications/mampstack-8.1.9-0/mariadb/data/ib_buffer_pool
+2022-08-14 18:04:33 0 [Note] InnoDB: Buffer pool(s) dump completed at 220814 18:04:33
+2022-08-14 18:04:35 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-08-14 18:04:35 0 [Note] InnoDB: Shutdown completed; log sequence number 60985; transaction id 21
+2022-08-14 18:04:35 0 [Note] /Applications/mampstack-8.1.9-0/mariadb/bin/mysqld.bin: Shutdown complete
+
+220814 19:35:18 mysqld_safe Starting mysqld daemon with databases from /Applications/mampstack-8.1.9-0/mariadb/data
+2022-08-14 19:35:18 0 [Note] /Applications/mampstack-8.1.9-0/mariadb/bin/mysqld.bin (mysqld 10.4.25-MariaDB) starting as process 1062 ...
+2022-08-14 19:35:18 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2022-08-14 19:35:18 0 [Note] InnoDB: Uses event mutexes
+2022-08-14 19:35:18 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-08-14 19:35:18 0 [Note] InnoDB: Number of pools: 1
+2022-08-14 19:35:18 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-08-14 19:35:18 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-08-14 19:35:18 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-08-14 19:35:18 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-08-14 19:35:18 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-08-14 19:35:18 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-08-14 19:35:18 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-08-14 19:35:18 0 [Note] InnoDB: Waiting for purge to start
+2022-08-14 19:35:18 0 [Note] InnoDB: 10.4.25 started; log sequence number 60985; transaction id 20
+2022-08-14 19:35:18 0 [Note] InnoDB: Loading buffer pool(s) from /Applications/mampstack-8.1.9-0/mariadb/data/ib_buffer_pool
+2022-08-14 19:35:18 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-08-14 19:35:18 0 [Note] InnoDB: Buffer pool(s) load completed at 220814 19:35:18
+2022-08-14 19:35:18 0 [Note] Server socket created on IP: '127.0.0.1'.
+2022-08-14 19:35:18 0 [Warning] 'user' entry 'root@munsehuis-macbook-air.local' ignored in --skip-name-resolve mode.
+2022-08-14 19:35:18 0 [Warning] 'proxies_priv' entry '@% root@munsehuis-macbook-air.local' ignored in --skip-name-resolve mode.
+2022-08-14 19:35:18 0 [Note] Reading of all Master_info entries succeeded
+2022-08-14 19:35:18 0 [Note] Added new Master_info '' to hash table
+2022-08-14 19:35:18 0 [Note] /Applications/mampstack-8.1.9-0/mariadb/bin/mysqld.bin: ready for connections.
+Version: '10.4.25-MariaDB'  socket: '/Applications/mampstack-8.1.9-0/mariadb/tmp/mysql.sock'  port: 3306  Source distribution
