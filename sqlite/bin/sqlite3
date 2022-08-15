@@ -1,5 +1,0 @@
-#!/bin/sh
-
-. /Applications/mampstack-8.1.9-0/scripts/setenv.sh
-
-exec /Applications/mampstack-8.1.9-0/sqlite/bin/.sqlite3.bin  "$@"

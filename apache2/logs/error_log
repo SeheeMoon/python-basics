@@ -10,3 +10,15 @@ Traceback (most recent call last):
   File "/Users/seheemoon/opt/anaconda3/lib/python3.9/cgi.py", line 525, in __getitem__
     raise KeyError(key)
 KeyError: 'id'
+[Mon Aug 15 00:58:27.681329 2022] [core:error] [pid 13597] (2)No such file or directory: AH00095: failed to remove PID file /Applications/mampstack-8.1.9-0/apache2/logs/httpd.pid
+[Mon Aug 15 00:58:27.699539 2022] [mpm_prefork:notice] [pid 13597] AH00169: caught SIGTERM, shutting down
+[Mon Aug 15 12:22:01.876791 2022] [ssl:warn] [pid 1362] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 15 12:22:01.915243 2022] [ssl:warn] [pid 1363] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 15 12:22:02.001136 2022] [mpm_prefork:notice] [pid 1363] AH00163: Apache/2.4.54 (Unix) OpenSSL/1.1.1q PHP/8.1.9 configured -- resuming normal operations
+[Mon Aug 15 12:22:02.001306 2022] [core:notice] [pid 1363] AH00094: Command line: '/Applications/mampstack-8.1.9-0/apache2/bin/httpd.bin -f /Applications/mampstack-8.1.9-0/apache2/conf/httpd.conf'
+Traceback (most recent call last):
+  File "/Applications/mampstack-8.1.9-0/apache2/htdocs/index.py", line 6, in <module>
+    pageId = form["id"].value
+  File "/Users/seheemoon/opt/anaconda3/lib/python3.9/cgi.py", line 525, in __getitem__
+    raise KeyError(key)
+KeyError: 'id'

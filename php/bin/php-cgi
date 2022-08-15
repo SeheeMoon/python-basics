@@ -1,7 +1,0 @@
-#!/bin/sh
-PHPRC=/Applications/mampstack-8.1.9-0/php/etc
-export PHPRC
-PHP_PEAR_SYSCONF_DIR=/Applications/mampstack-8.1.9-0/php/etc
-export PHP_PEAR_SYSCONF_DIR
-. /Applications/mampstack-8.1.9-0/php/../scripts/setenv.sh
-exec /Applications/mampstack-8.1.9-0/php/bin/php-cgi.bin "$@"

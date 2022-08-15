@@ -2,8 +2,7 @@
 print("content-type:text/html")
 print()
 import cgi
-form = cgi.FieldStorage()
-pageId = form["id"].value
+pageId = 'Welcome'
 
 print('''<!doctype html>
 <html>

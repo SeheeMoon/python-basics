@@ -1,6 +1,0 @@
-#!/bin/sh
-
-ZDOTDIR=/Applications/mampstack-8.1.9-0
-export ZDOTDIR
-
-exec /bin/zsh
