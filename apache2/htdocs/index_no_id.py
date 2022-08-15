@@ -16,7 +16,7 @@ print('''<!doctype html>
 	<div id="grid">
 		<ol>
 			<li><a href="index.py?id=Liverpool" title="LIVERPOOL">Liverpool</a></li>
-			<li><a href="index.py?id=Chelsea" title="CHELSEA">Chelsea</a></li>
+			<li><a href="index.py?id=CHELSEA" title="CHELSEA">CHELSEA</a></li>
 			<li><a href="index.py?id=Manchester united" title="MANCHESTER UNITED">Manchester United</a></li>
 			<li><a href="index.py?id=Manchester city" title="MANCHESTER CITY">Manchester City</a></li>
 		</ol>
